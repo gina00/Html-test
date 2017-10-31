@@ -1,0 +1,347 @@
+.fa{
+    color: #e75150;
+}
+.navbar-right{
+    margin-right: 0;
+}
+.nav > li a:hover{
+    border-bottom: 2px solid #e74e48;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color: #e74e48;
+    border-bottom: 2px solid #e74e48;
+    background: transparent;
+}
+.navbar-nav li:last-child a{
+    color: #e74e48;
+}
+.navbar-nav li:last-child a:hover{
+    border-bottom: none;
+}
+.navbar-default{
+    border-color: transparent;
+    background-color: #fff;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.btn-primary{
+    background-color: #e8504f;
+    border-color: transparent;
+}
+.btn-lg, .btn-group-lg > .btn{
+    border-radius: 0;
+    padding: 10px 105px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e8504f;
+    border-color: transparent;
+}
+.row-p{
+    text-align: center;
+    border-right: 2px solid #999999;
+    padding: 0px 110px 10px;
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+}
+.row-faicon{
+    font-size: 50px;
+    text-align: center;
+    padding: 25px 0px;
+}
+.row{
+    margin-left: 0;
+    margin-right:0; 
+}
+.rowbox{
+    margin-bottom: 30px;
+}
+.row .col-md-3{
+    padding: 0;
+}
+.row .col-md-3:last-child p{
+    border-right: none;
+}
+.jum-box{
+    margin-bottom: 0px;
+}
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+.jumbotron .jum-container{
+    min-height: 350px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.jumbotron .jum-container i{
+    font-size: 72px;
+}
+.jumbotron .jum-p{
+    font-size: 56px;
+    color: #999;
+    margin: 55px 0;
+    font-family: "黑体";
+}
+.jum-mapbox{
+    background: url(../images/map.jpg) no-repeat;
+    background-size: cover;
+}
+.jum-mapbox .row .col-md-3{
+    padding: 0 15px;
+}
+.jum-mapbox .btn-danger{
+    padding: 6px 100px;
+}
+.jum-text{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.split{
+    height: 2px;
+    background: rgba(255, 255, 255, 0.45);
+    width: 30px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.jum-text-small{
+    margin: 25px 0px;
+}
+.jumbotron p.jum-text-small{
+    font-size: 14px;
+}
+.wallshow{
+    background: #fff;
+}
+.wallImg{
+   height: 550px;
+}
+.wallImg figure{
+    padding: 10px;
+    border:1px solid #e6e6e6;    
+}
+.wallImg .row .col-md-3{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.wallImg figure a{
+    display: block;
+    background: #f5eceb;
+}
+.wallImg aside{
+    margin: 15px 0;
+    text-align: center;
+}
+.bigText{
+    font-size: 18px;
+    color: #333;
+}
+.smallText{
+    font-size: 14px;
+    color: #666
+}
+.big-img{
+    height: 565px;
+}
+.big-img .col-md-8,.big-img .col-md-4{
+    padding: 0;
+    height: 100%;
+}
+.big-img .col-md-4{
+    text-align: center;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.red{
+    color: #e74e48;
+}
+.circle-ul{
+    text-align: center;
+    padding: 0;
+    margin-top: 25px;
+}
+.circle-ul li{
+    float: left;
+    border-radius: 50px;
+    border:1px solid #C7C7C7;
+    width: 15px;
+    height: 15px;
+    margin: 0 8px;
+    background: transparent;
+    list-style: none;
+}
+.circle-ul li.active{
+    border:2px solid #e74e48;
+}
+.contain-p{
+    padding: 40px;
+    line-height: 35px;
+    color: #999;
+    font-size: 12px;
+    text-align: left;
+}
+.first-cl4{
+    color: #fff;
+    font-size: 20px;
+    background: #e8504f;
+}
+.second-cl4{
+    color: #666;
+    font-size: 20px;
+    background: #fff;
+}
+.border-btn{
+    padding: 10px 35px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    background: transparent;
+}
+.second-cl4 .driver{
+    margin: 25px 0px;
+    background: rgba(219, 219, 219, 1);
+}
+.first-cl4 .driver{
+    margin: 25px 0px;
+    background: rgba(255, 255, 255, 0.45);
+}
+.border-redbtn{
+    padding: 10px 35px;
+    border: 1px solid #e8504f;
+    color: #e8504f;
+    font-size: 16px;
+    background: transparent;
+}
+.contant{
+    width: 1370px;
+    padding: 100px 0;
+}
+.contant .jum-text{
+    color: #333;
+}
+.contant .driver{
+
+    background: #e8504f;
+}
+.contant .jum-text-small{
+    color: #999;
+    padding: 0 280px;
+}
+.left-list ul{
+    list-style: none;
+}
+
+.left-list h3{
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #636671;
+    font-weight: bold;
+}
+.left-list p{
+    overflow: hidden;
+    word-break: break-all;/*允许在单词内换行*/
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical;/** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 2;/** 显示的行数 **/
+    color: #999;
+    font-size: 12px;
+}
+.more-box{
+    text-align: right;
+    font-size: 10px;
+    color: #999;
+}
+.more-box a,.more-box a:hover{
+    color: #999;
+}
+.more-box a:hover{
+    text-decoration: underline;
+}
+.input-outbox{
+    background: #ededef;
+    border-radius: 3px;
+    padding: 8px 20px;
+    color: #666;
+}
+.input-form{
+    border: none;
+    outline: medium;
+    background: transparent;
+}
+.input-row{
+    margin-bottom: 15px;
+}
+.input-row textarea{
+    border:none;
+    outline: medium;
+    background: transparent;
+}
+.row-btn{
+    border: none;
+    outline: medium;
+    background: transparent;
+    width: 100%;
+}
+.contantus{
+    background: #33363f;
+    text-align: center;
+    color: #fff;
+}
+.contantus-text{
+    padding: 50px 0px;
+}
+.contantus-text h3{
+    font-size: 20px;
+}
+.contantus-text p{
+    width: 510px;
+    font-size: 13px;
+    margin: 15px auto;
+    line-height: 22px;
+}
+.searchBox{
+    width: 550px;
+    margin: 20px auto;
+}
+.iconbox .fa{
+    color: #fff;
+    font-size: 25px;
+    margin: 5px 15px;
+}
+footer{
+    height: 65px;
+    border-top: 5px solid #2f2f39;
+    overflow: auto;
+    background: #30303a;
+    color: #fff;
+    padding: 20px 35px;
+    font-size: 13px;
+}
+footer span:first-child{
+    float: left;
+}
+footer span:last-child{
+    float: right;
+}
+.bg-banner{
+    height: 650px;
+    background: url(../images/banner.jpg) no-repeat;
+    background-size:cover;
+}
+.bg-banner .container{
+    margin-top: 150px;
+    color: #fff;
+}
